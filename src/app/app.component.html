@@ -4,27 +4,17 @@
   <title> ¿ y pelis? </title>
 </head>
 <body>
-  <h1>¿y pelis? Tu lugar para ver tus pelis favoritas</h1>
-  <h2> peliculas y series</h2>
-  <p>categorias</p>
-  <form action="/ formulario"  method="post"></form>
-  <button>terror</button><button>accion</button><button>romance</button>
-  <section>
-    <article>
-      <p>recomendacion del dia </p>
-      <img src="imagenes/winne.png"[width]="400"/>
-      <p>descripcion
-        Winnie the Pooh y Piglet se han vuelto salvajes y quieren sangre humana.
-      </p>
-      <p>Los antes entrañables amigos aterrorizan a Christopher Robin y un grupo 
-        de jóvenes en una casa aislada.</p>
-      <p>calificacion: 4 de 5</p>
-      <p>categoria: terror</p>
-    </article>
-    <article>
-      <h2> lanzamientos de la semana </h2>
-      <img src="imagenes/winne.png"[width]="400"/><img src="imagenes/fury.jpg" width="400"/><img src="imagenes/la cita.jpg"[width]="400"/>
-    </article>
-  </section>
+  <app-header></app-header>
+   <router-outlet></router-outlet>
+   <h1>¿y pelis? Tu lugar para ver tus pelis favoritas</h1>
+   <h2> peliculas y series</h2>
+ 
+   <app-card></app-card>
+   <app-card></app-card>
+   <app-card></app-card>
+ 
+
+     <app-footer></app-footer>
+  
 </body>
 </html>
